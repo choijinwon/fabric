@@ -77,35 +77,35 @@ Check [the documentation](testingInfo.rst) for information on the testing struct
 
 
 ## go 환경변수 
-wget https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz
-go1.10.4.linux-amd64.tar.gz
+- wget https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz
+- go1.10.4.linux-amd64.tar.gz
 
-mkdir /root/gopath
-gedit etc/profile
+- mkdir /root/gopath
+- gedit etc/profile
 
-cd etc/profile
-export GOPATH=/root/gopath
-export PATH=$PATH:$GODIR/bin
+- cd etc/profile
+- export GOPATH=/root/gopath
+- export PATH=$PATH:$GODIR/bin
 
 ## 환경변수 업데이트
 source/etc/profile
 
 ## 환경변수 설정 확인
-cd $GOPATH
-/gopath# cd $GOROOT
-/go#
+- cd $GOPATH
+- /gopath# cd $GOROOT
+- /go#
 
 ## 기타 개발 도구 설치
  - apt-get install python-pip
  - apt-get install git
-apt-get install curl
-apt-get install libltdl-dev
-apt-get install tree
-apt-get install openssh-server
-apt-get install net-tools
+ - apt-get install curl
+- apt-get install libltdl-dev
+- apt-get install tree
+- apt-get install openssh-server
+- apt-get install net-tools
 
 ## docker, docker-compose 설치
-https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/docker-ce_17.06.2~ce-0~ubuntu_amd64.deb
+- https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/docker-ce_17.06.2~ce-0~ubuntu_amd64.deb
 
 
 ## Community
