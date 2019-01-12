@@ -88,7 +88,7 @@ Check [the documentation](testingInfo.rst) for information on the testing struct
 - export PATH=$PATH:$GODIR/bin
 
 ## 환경변수 업데이트
-source/etc/profile
+- source/etc/profile
 
 ## 환경변수 설정 확인
 - cd $GOPATH
@@ -106,6 +106,12 @@ source/etc/profile
 
 ## docker, docker-compose 설치
 - https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/docker-ce_17.06.2~ce-0~ubuntu_amd64.deb
+- dpkg -i docker-ce_17.06.2~ce-0~ubuntu_amd64.deb
+- docker run hello-world
+
+- pip install docker-compose
+- docker-compose --version <version 1.14.0>
+
 
 
 ## Community
