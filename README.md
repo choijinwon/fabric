@@ -75,6 +75,10 @@ for the full details.
 ## Testing
 Check [the documentation](testingInfo.rst) for information on the testing structure that the project follows.
 
+
+## 세팅 및 설치
+wget https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz
+
 ## Community
 
 [Hyperledger Community](https://www.hyperledger.org/community)
@@ -96,3 +100,8 @@ Check [the documentation](testingInfo.rst) for information on the testing struct
 ## License <a name="license"></a>
 
 Hyperledger Project source code files are made available under the Apache License, Version 2.0 (Apache-2.0), located in the [LICENSE](LICENSE) file. Hyperledger Project documentation files are made available under the Creative Commons Attribution 4.0 International License (CC-BY-4.0), available at http://creativecommons.org/licenses/by/4.0/.
+
+
+
+
+
