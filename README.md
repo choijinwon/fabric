@@ -96,8 +96,8 @@ cd $GOPATH
 /go#
 
 ## 기타 개발 도구 설치
-apt-get install python-pip
-apt-get install git
+ - apt-get install python-pip
+ - apt-get install git
 apt-get install curl
 apt-get install libltdl-dev
 apt-get install tree
@@ -105,6 +105,7 @@ apt-get install openssh-server
 apt-get install net-tools
 
 ## docker, docker-compose 설치
+https://download.docker.com/linux/ubuntu/dists/xenial/pool/stable/amd64/docker-ce_17.06.2~ce-0~ubuntu_amd64.deb
 
 
 ## Community
